@@ -51,7 +51,7 @@ h3 {
 	position: absolute;
 	left: 50%;
 	right: 50%;
-	bottom: 0;
+	bottom: -1px;
 	height: 2px;
 	background-color: #dcdcdc;
 	transition: all 0.25s ease-out;
