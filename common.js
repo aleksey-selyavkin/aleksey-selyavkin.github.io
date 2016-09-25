@@ -8,19 +8,20 @@ $(document).ready(function(){
       return false;
     });
 
-    /* Animation block about */
-    var h = $(window).height();
     $(window).scroll(function(){
+      /* small parallax - block header */
+      var wScroll = $(this).scrollTop();
+      $("#parallax").css({
+        "transform" : "translate(0px, "+ wScroll/30 +"%)"
+      })
+      /* animation - block about */
+      var h = $(window).height();
       if ( ($(this).scrollTop()+h) >= $("#animate2").offset().top) {
         $("#animate2 .slide").css({visibility:"visible"});
         $("#animate2 .slide").eq(0).addClass('animated fadeIn');
         $("#animate2 .slide").eq(1).addClass('animated fadeIn');
       }
-    });
-
-    /* Animation block contact */
-    var h = $(window).height();
-    $(window).scroll(function(){
+      /* animation - block contact */
       if ( ($(this).scrollTop()+h) >= $("#animate4").offset().top) {
         $("#animate4 .slide").css({visibility:"visible"});
         $("#animate4 .slide").eq(0).addClass('animated flipInX');
@@ -30,4 +31,4 @@ $(document).ready(function(){
       }
     });
 
-  });
+});
