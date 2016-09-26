@@ -278,6 +278,7 @@ body {
 	/* Contact */
 .contact {
     min-height: 100vh;
+    margin-bottom: -50px;
 	position: relative;
     background: url(img/coffee-table.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -334,7 +335,6 @@ body {
 	/* Footer */
 .footer {
 	position: relative;
-	top: -51px;
 	height: 50px;
 	background-color: rgba(50, 50, 50, .3);
 	color: #fff;

@@ -16,13 +16,13 @@ $(document).ready(function(){
       })
       /* animation - block about */
       var h = $(window).height();
-      if ( ($(this).scrollTop()+h) >= $("#animate2").offset().top) {
+      if ( ($(this).scrollTop()+h) > $("#animate2").offset().top) {
         $("#animate2 .slide").css({visibility:"visible"});
         $("#animate2 .slide").eq(0).addClass('animated fadeIn');
         $("#animate2 .slide").eq(1).addClass('animated fadeIn');
       }
       /* animation - block contact */
-      if ( ($(this).scrollTop()+h) >= $("#animate4").offset().top) {
+      if ( ($(this).scrollTop()+h) > $("#animate4").offset().top) {
         $("#animate4 .slide").css({visibility:"visible"});
         $("#animate4 .slide").eq(0).addClass('animated flipInX');
         $("#animate4 .slide").eq(1).addClass('animated flipInX');
