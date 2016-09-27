@@ -302,6 +302,9 @@ body {
 .contact ul li {
 	margin-bottom: 30px;
 }
+.contact ul li:last-child {
+	padding-bottom: 50px;
+}
 .contact .btn {
 	background-color: #222;
 	border: 1px solid #666;
