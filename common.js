@@ -19,7 +19,7 @@ $(document).ready(function(){
       if ( ($(this).scrollTop()+h) > $("#animate2").offset().top) {
         $("#animate2 .slide").css({visibility:"visible"});
         $("#animate2 .slide").eq(0).addClass('animated fadeIn');
-        $("#animate2 .slide").eq(1).addClass('animated fadeIn');
+        $("#animate2 .slide").eq(1).addClass('animated rotateInUpLeft');
       }
       /* animation - block contact */
       if ( ($(this).scrollTop()+h) > $("#animate4").offset().top) {
