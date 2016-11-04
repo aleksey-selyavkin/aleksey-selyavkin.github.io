@@ -12,7 +12,7 @@
   <!-- Font-Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <!-- Animate.css -->
-  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="animation.css">
   <!-- CSS -->
   <link rel="stylesheet" href="main.css">
 
@@ -25,7 +25,7 @@
 </head>
 <body>
 
-  <!-- Navigation -->
+  <!-- Navigation start -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
       <div class="row">
@@ -51,163 +51,168 @@
       </div>
     </div>
   </nav>
-
-  <!-- Header -->
+  <!-- Navigation end -->
+  <!-- Header start -->
   <a id="home"></a>
   <div class="header">
-    <div class="bg-header-overlay">
-      <div class="container">
-        <div class="row" id="parallax">
-          <h1 class="animated slideInLeft">My First Portfolio</h1>
-          <h3 class="animated fadeIn">Trial portfolio for yourself and about yourself</h3>
-          <hr />
-          <!-- Buttons -->
-          <ul class="list-inline list-unstyled social-buttons">
-            <li>
-              <a href="https://github.com/aleksey-selyavkin"
-              target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-            </li>
-            <li>
-              <a href="https://ua.linkedin.com/in/selyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-            </li>
-            <li>
-              <a href="https://www.codecademy.com/AlekseySelyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-file-code-o fa-fw"></i> <span class="network-name">Codecademy</span></a>
-            </li>
-            <li>
-              <a href="http://www.freecodecamp.com/aleksey-selyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
-            </li>
-          </ul>
-        </div>
+    <div class="container">
+      <div class="row" id="parallax">
+        <h1 class="animated slideInLeft">My First Portfolio</h1>
+        <h3 class="animated fadeIn">Trial portfolio for yourself and about yourself</h3>
+        <hr />
+        <!-- Buttons -->
+        <ul class="list-inline list-unstyled social-buttons">
+          <li>
+            <a href="https://github.com/aleksey-selyavkin"
+            target="_blank" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+          </li>
+          <li>
+            <a href="https://ua.linkedin.com/in/selyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+          </li>
+          <li>
+            <a href="https://www.codecademy.com/AlekseySelyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-file-code-o fa-fw"></i> <span class="network-name">Codecademy</span></a>
+          </li>
+          <li>
+            <a href="http://www.freecodecamp.com/aleksey-selyavkin" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-fire fa-fw"></i> <span class="network-name">freeCodeCamp</span></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-
-  <!-- Page Content -->
+  <!-- Header end -->
+  <!-- Page Content start -->
   <a id="about"></a>
   <div class="content">
   <div class="transition"></div>
-    <div class="bg-content-overlay">
-      <div class="container">
-        <div class="row" id="animate2">
-          <div class="col-sm-6">
-          <div class="slide slide1">
-            <h2>A few words about myself</h2>
-            <hr />
-            <p>Recently I started learning web development and I am very interested in this. There is a great desire to make real progress in this direction.</p><br>
-            <p>At this stage I have set myself a Goal - Getting HTML/CSS Developer position with opportunities for professional and career growth, improvement of professional skills, gaining knowledge and experience.</p>
-            </div>
+    <div class="container">
+      <div class="row" id="animate2">
+        <div class="col-sm-6">
+        <div class="slide slide1">
+          <p class="mini-header">My Goal</p>
+          <br>
+          <p>Getting HTML/CSS Developer position with opportunities for professional and career growth, improvement of professional skills, gaining knowledge and experience.</p>
+          <hr>
+          <p class="mini-header">My Skills</p>
+          <br>
+          <ul class="skills">
+            <li>HTML, CSS (Sass), Bootstrap, JavaScript (jQuery), Gulp, Git;</li>
+            <li>Knowledge in creating pixel-perfect markup;</li>
+            <li>Markup experience with responsive layout.</li>
+          </ul>
           </div>
-          <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-1" id="animate3">
-            <img src="img/social.jpg" alt="photo" class="img-responsive slide slide2" />
-          </div>
+        </div>
+        <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-1" id="animate3">
+          <img src="img/social.jpg" alt="photo" class="img-responsive slide slide2" />
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Portfolio -->
+  <!-- Page Content end -->
+  <!-- Portfolio start -->
   <a id="portfolio"></a>
   <div class="portfolio">
   <div class="transition"></div>
-    <div class="bg-portfolio-overlay">
-      <div class="container">
-        <div class="row text-center">
-          <h2>Portfolio</h2>
-        </div>
-        <div class="row trimming">
-        <!-- img1 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="https://aleksey-selyavkin.github.io/ui-kit/" target="_blank">
-                <i class="fa fa-github fa-3x"></i>
-                <img src="img/ui-kit.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS(Sass)</p>
-              </a>
-            </div>
-          </div>
-          <!-- img2 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="https://aleksey-selyavkin.github.io/temporary_warehouse/" target="_blank">
-                <i class="fa fa-github fa-3x"></i>
-                <img src="img/landing-torokhtiy.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS(Sass) / JS</p>
-              </a>
-            </div>
-          </div>
-          <!-- img3 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="https://aleksey-selyavkin.github.io/elena-email/" target="_blank">
-                <i class="fa fa-github fa-3x"></i>
-                <img src="img/elena.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS(Sass)</p>
-              </a>
-            </div>
-          </div>
-          <!-- img4 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="http://codepen.io/Aleksey_Selyavkin/full/MyeVvx/" target="_blank">
-                <i class="fa fa-codepen fa-3x"></i>
-                <img src="img/calculator.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS / JS</p>
-              </a>
-            </div>
-          </div>
-          <!-- img5 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="http://codepen.io/Aleksey_Selyavkin/full/eJqqKJ/" target="_blank">
-                <i class="fa fa-codepen fa-3x"></i>
-                <img src="img/test-task.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS / JS</p>
-              </a>
-            </div>
-          </div>
-          <!-- img6 -->
-          <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
-            <div class="image-box">
-              <a href="http://codepen.io/Aleksey_Selyavkin/full/WwxzOK/" target="_blank">
-                <i class="fa fa-codepen fa-3x"></i>
-                <img src="img/cherry.png" class="img-responsive" alt="site" />
-                <p>HTML / CSS</p>
-              </a>
-            </div>
+    <div class="container">
+      <div class="row text-center">
+        <h2>Portfolio</h2>
+      </div>
+      <div class="row trimming">
+        <!-- img1 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="https://aleksey-selyavkin.github.io/ui-kit/" target="_blank">
+              <i class="fa fa-github fa-3x"></i>
+              <img src="img/ui-kit.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS(Sass)</p>
+            </a>
           </div>
         </div>
+        <!-- img1 end -->
+        <!-- img2 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="https://aleksey-selyavkin.github.io/temporary_warehouse/" target="_blank">
+              <i class="fa fa-github fa-3x"></i>
+              <img src="img/landing-torokhtiy.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS(Sass) / JS</p>
+            </a>
+          </div>
+        </div>
+        <!-- img2 end -->
+        <!-- img3 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="https://aleksey-selyavkin.github.io/elena-email/" target="_blank">
+              <i class="fa fa-github fa-3x"></i>
+              <img src="img/elena.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS(Sass)</p>
+            </a>
+          </div>
+        </div>
+        <!-- img3 end -->
+        <!-- img4 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="http://codepen.io/Aleksey_Selyavkin/full/MyeVvx/" target="_blank">
+              <i class="fa fa-codepen fa-3x"></i>
+              <img src="img/calculator.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS / JS</p>
+            </a>
+          </div>
+        </div>
+        <!-- img4 end -->
+        <!-- img5 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="http://codepen.io/Aleksey_Selyavkin/full/eJqqKJ/" target="_blank">
+              <i class="fa fa-codepen fa-3x"></i>
+              <img src="img/test-task.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS / JS</p>
+            </a>
+          </div>
+        </div>
+        <!-- img5 end -->
+        <!-- img6 start -->
+        <div class="col-xs-12 col-sm-6 col-sm-offset-0 col-md-4">
+          <div class="image-box">
+            <a href="http://codepen.io/Aleksey_Selyavkin/full/WwxzOK/" target="_blank">
+              <i class="fa fa-codepen fa-3x"></i>
+              <img src="img/cherry.png" class="img-responsive" alt="site" />
+              <p>HTML / CSS</p>
+            </a>
+          </div>
+        </div>
+        <!-- img6 end -->
       </div>
     </div>
   </div>
-
-  <!-- Contact -->
+  <!-- Portfolio end -->
+  <!-- Contact start -->
   <a id="contact"></a>
   <div class="contact">
   <div class="transition"></div>
-    <div class="bg-contact-overlay">
-      <div class="container">
-        <div class="row text-center" id="animate4">
-          <h2>Contact</h2>
-          <ul class="list-unstyled text-right">
-          	<li>
-              <a href="mailto:aleksey.selyavkin@gmail.com" class="btn btn-default btn-lg slide slide1"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Mail</span></a>
-            </li>
-            <li>
-              <a href="skype:aleksey_selyavkin" class="btn btn-default btn-lg slide slide2"><i class="fa fa-skype fa-fw"></i> <span class="network-name">Skype</span></a>
-            </li>
-            <li>
-              <a href="tel:+380677624158" class="btn btn-default btn-lg slide slide3"><i class="fa fa-phone fa-fw"></i> <span class="network-name">Phone</span></a>
-            </li>
-            <li>
-              <a href="https://ua.linkedin.com/in/selyavkin" target="_blank" class="btn btn-default btn-lg slide slide4"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
-            </li>
-          </ul>
-        </div>
+    <div class="container">
+      <div class="row text-center" id="animate4">
+        <h2>Contact</h2>
+        <ul class="list-unstyled text-right">
+          <li>
+            <a href="mailto:aleksey.selyavkin@gmail.com" class="btn btn-default btn-lg slide slide1"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">Mail</span></a>
+          </li>
+          <li>
+            <a href="skype:aleksey_selyavkin" class="btn btn-default btn-lg slide slide2"><i class="fa fa-skype fa-fw"></i> <span class="network-name">Skype</span></a>
+          </li>
+          <li>
+            <a href="tel:+380677624158" class="btn btn-default btn-lg slide slide3"><i class="fa fa-phone fa-fw"></i> <span class="network-name">Phone</span></a>
+          </li>
+          <li>
+            <a href="https://ua.linkedin.com/in/selyavkin" target="_blank" class="btn btn-default btn-lg slide slide4"><i class="fa fa-linkedin-square fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+          </li>
+        </ul>
       </div>
     </div>
   </div>
-
-  <!-- Footer -->
+  <!-- Contact end -->
+  <!-- Footer start -->
   <div class="footer">
     <div class="container">
       <div class="row text-center">
@@ -215,7 +220,7 @@
       </div>
     </div>
   </div>
-
+  <!-- Footer end -->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
