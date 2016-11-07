@@ -306,7 +306,7 @@ body {
 }
 .contact .btn {
 	background-color: #111;
-	border: 1px solid #666;
+	border: 2px solid #222;
 	color: #eee;
 	letter-spacing: 0.1em;
 	box-shadow: inset 2px 2px 15px 2px #ddd;
@@ -314,7 +314,7 @@ body {
 }
 .contact .btn:hover {
 	background-color: #ffda3c;
-	border: 1px solid rgba(0, 0, 0, .7);
+	border: 2px solid rgba(0, 0, 0, .7);
 	color: #111;
 	box-shadow: inset -2px -2px 20px 2px #222, 6px 6px 2px -2px rgba(0, 0, 0, .5);
 }
