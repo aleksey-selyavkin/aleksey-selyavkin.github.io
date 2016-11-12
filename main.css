@@ -262,22 +262,20 @@ body {
 	font-weight: bold;
 	white-space: nowrap;
 	margin: 0 auto;
-	bottom: 60px;
+	bottom: 35%;
 	left: 50%;
-	transform: scale(0.01) rotateZ(280deg);
+	transform: translateX(-50%);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5),
 				1px -1px 1px rgba(0, 0, 0, .5),
 				-1px 1px 1px rgba(0, 0, 0, .5),
 				-1px -1px 1px rgba(0, 0, 0, .5),
 				3px 3px 2px #555,
 				0 0 20px #000;
-	visibility: hidden;
 	opacity: 0;
-	transition: all 0.35s 0.25s ease-in-out;
+	transition: all 0.45s 0.35s ease-in-out;
 }
 .portfolio a:hover p {
-	transform: scale(1) translate(-50%) rotateZ(360deg);
-	visibility: visible;
+	bottom: 60px;
 	opacity: 1;
 }
 
