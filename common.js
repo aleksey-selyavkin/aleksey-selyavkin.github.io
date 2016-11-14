@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    /* Navbar-brand - reload the page */
+    $("#reload").click(function(){
+        window.location.reload();
+    });
+
     /* Smooth scrolling */
     $("a.scroll").click(function(event) {
         event.preventDefault();
@@ -31,7 +36,7 @@ $(document).ready(function() {
     $("#parallax").css({
         "transform": "translate(0px, "+ wScroll / 30 +"%)"
     })
-      /* animation - block about */
+    /* animation - block about */
     var h = $(window).height();
     if (($(this).scrollTop() + h) > $("#animate2").offset().top) {
         $("#animate2 .slide").css({visibility: "visible"});
