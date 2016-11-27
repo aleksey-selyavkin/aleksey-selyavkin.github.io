@@ -75,27 +75,30 @@ body {
 	background-size: cover;
 }
 .header h1 {
-	padding-top: 80px;
 	font-family: 'Rouge Script', serif;
 	font-size: 110px;
-	color: #fff;
 	letter-spacing: 1px;
-	text-shadow: 6px 6px 6px #000,
-				1px 1px 1px #000,
+	color: #fff;
+	text-shadow: 1px 1px 1px #000,
 				-1px -1px 1px #000,
 				1px -1px 1px #000,
-				-1px 1px 1px #000;
+				-1px 1px 1px #000,
+				6px 6px 6px #000;
+	padding-top: 80px;
 	animation-delay: 0.5s;
 	animation-duration: 2s;
 }
 .header h3 {
-	color: #eee;
 	font-size: 30px;
-	text-shadow: 1px 1px 1px #000,
+	color: #fff;
+	text-shadow: 
+				1px 1px 1px #000,
 				-1px -1px 1px #000,
 				1px -1px 1px #000,
-				-1px 1px 1px #000;
+				-1px 1px 1px #000,
+				4px 4px 5px #000;
 	animation-delay: 2.5s;
+	padding: 0 20px 0 20px;
 	animation-duration: 3s;
 }
 .header hr {
@@ -262,7 +265,7 @@ body {
 	font-weight: bold;
 	white-space: nowrap;
 	margin: 0 auto;
-	bottom: 35%;
+	bottom: 30%;
 	left: 50%;
 	transform: translateX(-50%);
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, .5),
@@ -275,7 +278,7 @@ body {
 	transition: all 0.45s 0.35s ease-in-out;
 }
 .portfolio a:hover p {
-	bottom: 60px;
+	bottom: 20%;
 	opacity: 1;
 }
 
