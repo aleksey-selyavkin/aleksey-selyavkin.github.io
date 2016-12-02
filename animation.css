@@ -33,6 +33,57 @@
 	animation-name: fadeIn;
 }
 
+	/* .header nav */
+@keyframes ascent {
+	0% {
+		opacity: 0;
+		transform: perspective(400px) rotate3d(1, 1, 1, 90deg) scale(.1);
+	}
+	70% {
+		opacity: 1;
+		transform: perspective(400px);
+	}
+	80% {
+		transform: scale(1);
+	}
+	82% {
+		opacity: 0;
+	}
+	84% {
+		opacity: 1;
+	}
+	86% {
+		opacity: 0;
+	}
+	88% {
+		opacity: 1;
+	}
+	90% {
+		opacity: 0;
+	}
+	92% {
+		opacity: 1;
+	}
+	94% {
+		opacity: 0;
+	}
+	96% {
+		opacity: 1;
+	}
+	98% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+.ascent {
+	-webkit-animation-name: ascent;
+	animation-name: ascent;
+	animation-delay: 2s;
+	animation-duration: 2s;
+}
+
 	/* .content .slide2 */
 @keyframes rotateInUpLeft {
 	from {

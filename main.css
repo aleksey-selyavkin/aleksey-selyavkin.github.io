@@ -97,9 +97,9 @@ body {
 				1px -1px 1px #000,
 				-1px 1px 1px #000,
 				4px 4px 5px #000;
-	animation-delay: 2.5s;
 	padding: 0 20px 0 20px;
-	animation-duration: 3s;
+	animation-delay: 3.5s;
+	animation-duration: 2s;
 }
 .header hr {
 	width: 50%;
@@ -107,6 +107,8 @@ body {
 	border-bottom: 1px solid rgba(255, 255, 255, .6);
 	margin-top: 50px;
 	margin-bottom: 55px;
+	animation-delay: 3s;
+	animation-duration: 2s;
 }
 .header .btn {
 	background-color: #eee;
