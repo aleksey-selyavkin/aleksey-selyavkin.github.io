@@ -1,8 +1,3 @@
-.animated {
-	animation-duration: 1s;
-	animation-fill-mode: both;
-}
-
 	/* .header h1 */
 @keyframes slideInLeft {
 	from {
@@ -14,12 +9,11 @@
 		opacity: 1;
 	}
 }
-.slideInLeft {
-	-webkit-animation-name: slideInLeft;
-	animation-name: slideInLeft;
+.slide-animation {
+	animation: slideInLeft both;
 }
 
-	/* .header h3 + .content .slide1 */
+	/* .header h3 + .header hr + .content .slide1 */
 @keyframes fadeIn {
 	from {
 		opacity: 0;
@@ -28,13 +22,12 @@
 		opacity: 1;
 	}
 }
-.fadeIn {
-	-webkit-animation-name: fadeIn;
-	animation-name: fadeIn;
+.fade-in-animation {
+	animation: fadeIn both; /*duration and delay in main.css*/
 }
 
 	/* .header nav */
-@keyframes ascent {
+@keyframes appearance {
 	0% {
 		opacity: 0;
 		transform: perspective(400px) rotate3d(1, 1, 1, 90deg) scale(.1);
@@ -46,42 +39,15 @@
 	80% {
 		transform: scale(1);
 	}
-	82% {
+	82%, 86%, 90%, 94%, 98% {
 		opacity: 0;
 	}
-	84% {
-		opacity: 1;
-	}
-	86% {
-		opacity: 0;
-	}
-	88% {
-		opacity: 1;
-	}
-	90% {
-		opacity: 0;
-	}
-	92% {
-		opacity: 1;
-	}
-	94% {
-		opacity: 0;
-	}
-	96% {
-		opacity: 1;
-	}
-	98% {
-		opacity: 0;
-	}
-	100% {
+	84%, 88%, 92%, 96%, 100% {
 		opacity: 1;
 	}
 }
-.ascent {
-	-webkit-animation-name: ascent;
-	animation-name: ascent;
-	animation-delay: 2s;
-	animation-duration: 2s;
+.appearance-animation {
+	animation: appearance 2.4s 1.8s both;
 }
 
 	/* .content .slide2 */
@@ -97,9 +63,8 @@
 		opacity: .95;
 	}
 }
-.rotateInUpLeft {
-	-webkit-animation-name: rotateInUpLeft;
-	animation-name: rotateInUpLeft;
+.ascent-animation {
+	animation: rotateInUpLeft 2s 2.5s both;
 }
 
 	/* .contact ul li */
@@ -124,7 +89,6 @@
 		transform: perspective(400px);
 	}
 }
-.flipInX {
-	backface-visibility: visible;
-	animation-name: flipInX;
+.flip-animation {
+	animation: flipInX both; /*duration and delay in main.css*/
 }

@@ -41,16 +41,16 @@
 		var h = $(window).height();
 		if (($(this).scrollTop() + h) > $("#animate2").offset().top) {
 			$("#animate2 .slide").css({visibility: "visible"});
-			$("#animate2 .slide").eq(0).addClass('animated fadeIn');
-			$("#animate2 .slide").eq(1).addClass('animated rotateInUpLeft');
+			$("#animate2 .slide").eq(0).addClass('fade-in-animation');
+			$("#animate2 .slide").eq(1).addClass('ascent-animation');
 		}
 		/* animation - block contact */
 		if (($(this).scrollTop() + h) > $("#animate4").offset().top) {
 			$("#animate4 .slide").css({visibility: "visible"});
-			$("#animate4 .slide").eq(0).addClass('animated flipInX');
-			$("#animate4 .slide").eq(1).addClass('animated flipInX');
-			$("#animate4 .slide").eq(2).addClass('animated flipInX');
-			$("#animate4 .slide").eq(3).addClass('animated flipInX');
+			$("#animate4 .slide").eq(0).addClass('flip-animation');
+			$("#animate4 .slide").eq(1).addClass('flip-animation');
+			$("#animate4 .slide").eq(2).addClass('flip-animation');
+			$("#animate4 .slide").eq(3).addClass('flip-animation');
 		}
 		});
 
