@@ -139,8 +139,8 @@ body {
 	background-color: rgba(0, 0, 0, .2);
 	padding: 30px 10px;
 	transition: all .3s linear;
-	animation-duration: 2s;
-	animation-delay: 1.5s;
+	animation-duration: 3s;
+	animation-delay: 1s;
 }
 .content .slide1:hover {
 	box-shadow: 0 0 20px rgba(255, 255, 255, .7);
@@ -196,7 +196,7 @@ body {
 }
 .content .slide2 {
 	animation-duration: 2s;
-	animation-delay: 2.5s;
+	animation-delay: 1.8s;
 }
 .content img {
 	margin-top: 100px;
@@ -327,6 +327,8 @@ body {
 	border: 1px solid #222;
 	color: #eee;
 	letter-spacing: 0.1em;
+	padding-left: 20px;
+	padding-right: 20px;
 	box-shadow: inset 2px 2px 15px 2px #ddd;
 	transition: all 0.3s linear;
 }
@@ -341,19 +343,19 @@ body {
 }
 .contact .slide1 {
 	animation-duration: 2.5s;
-	animation-delay: 1s;
+	animation-delay: 0.7s;
 }
 .contact .slide2 {
 	animation-duration: 2.5s;
-	animation-delay: 1.5s;
+	animation-delay: 1.2s;
 }
 .contact .slide3 {
 	animation-duration: 2.5s;
-	animation-delay: 2s;
+	animation-delay: 1.7s;
 }
 .contact .slide4 {
 	animation-duration: 2.5s;
-	animation-delay: 2.5s;
+	animation-delay: 2.2s;
 }
 
 	/* Footer */

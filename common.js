@@ -13,7 +13,7 @@
 			var destination = $(elementClick).offset().top;
 			$("html,body").animate({
 				scrollTop: destination
-			}, 1600);
+			}, 1300);
 			return false;
 		});
 
