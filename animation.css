@@ -1,7 +1,7 @@
 	/* .header h1 */
-@keyframes slideInLeft {
+@keyframes slideInBottom {
 	from {
-		transform: translate3d(-100%, 0, 0);
+		transform: translate3d(0, 100px, 0);
 		opacity: 0;
 	}
 	to {
@@ -10,7 +10,7 @@
 	}
 }
 .slide-animation {
-	animation: slideInLeft both;
+	animation: slideInBottom both;
 }
 
 	/* .header h3 + .header hr + .content .slide1 */
