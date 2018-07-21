@@ -490,3 +490,12 @@ a:hover, a:focus {
 		font-size: 10px;
 	}
 }
+
+@media screen and (max-width: 400px) {
+  .text-box-title {
+    margin-bottom: 5px;
+  }
+  .text-box-text {
+    font-size: 12px;
+  }
+}
