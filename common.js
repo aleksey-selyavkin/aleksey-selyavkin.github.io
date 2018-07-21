@@ -1964,6 +1964,15 @@ Particle.prototype = (function (o) {
     }));
   }
 
+  setTimeout(function(){
+    var sw = window.innerWidth / 2;
+    var sh = window.innerHeight / 3;
+    gravities.push(new GravityPoint(sw, sh, G_POINT_RADIUS, {
+      particles: particles,
+      gravities: gravities
+    }));
+  }, 5000);
+
   function mouseUp(e) {
     for (var i = 0, len = gravities.length; i < len; i++) {
       if (gravities[i].dragging) {
