@@ -31,7 +31,7 @@
       // small parallax - block header
       var wScroll = $(this).scrollTop();
       $("#parallax").css({
-        "transform": "translate(0px, " + wScroll / 10 + "%)"
+        "transform": "translate(0px, " + wScroll / 6 + "%)"
       })
 
       var h = $(window).height();
@@ -1964,6 +1964,7 @@ Particle.prototype = (function (o) {
     }));
   }
 
+  //
   setTimeout(function(){
     var sw = window.innerWidth / 2;
     var sh = window.innerHeight / 3;
@@ -1972,6 +1973,7 @@ Particle.prototype = (function (o) {
       gravities: gravities
     }));
   }, 5000);
+  //
 
   function mouseUp(e) {
     for (var i = 0, len = gravities.length; i < len; i++) {
